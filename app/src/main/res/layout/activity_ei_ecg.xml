@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EiEcg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EI &amp; ECG"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/eiekg"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <TextView
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HYPOKALEMIA"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/hyperka"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+
+
+
+
+
+
+            <TextView
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HYPERKALEMIA"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/hyperkalemia"
+                android:layout_height="200dp">
+
+            </ImageView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

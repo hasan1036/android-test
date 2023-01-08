@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2D9D9"
+    tools:context=".Ecgleads">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The 12-Lead ECG"
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The standard 12-lead ECG is a noninvasive representation of the electrical activity of the heart, where the thorax is assumed to be a homogeneous conductor, depicted by the difference between electrodes on predetermined body location (leads), including the three bipolar limb leads (I, II and III), six unipolar chest leads ( to ), and three augmented unipolar limb leads (aVR, aVL and aVF).
+The three bipolar limb leads introduced by Einthoven et al. (1950) depict the potential difference between the left arm () and right arm () denoted at lead I (Eq. (2.4)); left leg () and right arm denoted as lead II (Eq. (2.5)), and left leg and left arm denoted as lead III (Eq. (2.6)). The relation between the three bipolar limb leads, known as Einthoven's law, is shown at (Eq. (2.7)), obtained through the mathematical manipulation of the above bipolar limb leads equations. Fig. 2.3 shows each bipolar limb represented by its respective limb vector, where the relation between them forms a triangle, known as Einthoven triangle. The right leg electrode is required for reducing the common-mode interference and could be placed elsewhere in the body, however, it is placed at this limb by convenience.
+"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/leads"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <TextView
+
+                android:textSize="20sp"
+              android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The deflections observed on a ECG signal are seen as a result of the equivalent cardiac wavefront propagating (approximating or moving away) across a chosen unipolar or bipolar electrode. By convention, if the cardiac wavefront propagates to the limb direction, the respective limb bipolar ECG will show a positive deflection. Otherwise, if the cardiac wavefront moves into opposite limb vector direction, by convention, the respective limb bipolar ECG will show a negative deflection (please see Fig. 2.4). Extrapolating, a certain cardiac wavefront propagating into lead I direction will therefore show a positive deflection for lead I and a negative deflection for lead III. For the unipolar electrodes, the deflections are also under the same behavior."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/grb"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+            <TextView
+
+                android:layout_marginTop="10dp"
+
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Wilson Central Terminal, shown in Fig. 2.5A, is defined as the sum of the potentials of the right and left arms and left leg (Eq. (2.8)), and it has been used as the reference to the unipolar recordings electrodes on torso, such the unipolar limb leads ( to ) (depicted in Fig. 2.5B). Mathematically, any of the six unipolar chest leads display the potential heart activation on areas close to the heart on the torso projection () referenced to the Wilson Central Terminal (WCT, Eq. (2.9)):"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/manus"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/lep"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <TextView
+
+
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="where  and  are localized at the right and left-hand side at the fourth intercostal space,  between  and ,  at fifth intercostal,  between  and ,  at the midaxillary line.
+
+The remaining three leads that compose the 12 lead ECG, called augmented unipolar limb leads (aVR, aVL and aVF) (Goldberger, 1942), have the positive electrode in each of the limbs (right atrium, or left atrium or left leg). The reference for each of them is a modified version of the Wilson Central Terminal (called of GT), where the other two limbs is then averaged (see Fig. 2.6A and Eqs. (2.10) to (2.12)). It allows increasing the voltages amplitude (“augmented”), measured by the unipolar limbs, and the letter “a” is added to represent the increased voltage amplitudes at the ECGs."/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ecgmanusp"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/peqn"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/eqn2"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <TextView
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Since the augmented unipolar limb leads are a linear combination of the bipolar limb leads, and according to Einthoven's triangle equation (Eq. (2.7)), any bipolar limb lead is calculated as a function of the other two ones, it is possible to conclude that with only two bipolar limbs, the third one and the augmented unipolar limb leads are obtained by a simple mathematical manipulation. It is of significant importance to computer-based electrocardiography systems and memory saving. The illustration of all leads contemplating the standard 12-lead ECG is now summarized in Fig. 2.6B."/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

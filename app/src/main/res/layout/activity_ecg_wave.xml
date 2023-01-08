@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4E2E2"
+    tools:context=".EcgWave">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ECG Waves"
+                />
+
+
+
+
+            <ImageView
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/wavefrm"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+            <TextView
+android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#232222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P Wave:\n
+        In a normal ECG, there's three distinct waves. Together these waves represent one heartbeat. Looked at separately, the waves tell us what's happening in the heart at a certain time. The first wave is called the P wave. You can see from this picture that it's a relatively small wave. It represents the depolarization of the atria. What does that mean? Well, we remember that depolarization is defined as the change in the cell's membrane potential to a more positive state. It's this change that generates the electrical impulse that starts the heart's contraction. So we can associate the P wave of an ECG with the contraction of the atria."
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#232222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PR interval:\n
+                The PR interval is the time from the beginning of the P wave (atrial depolarization) to the beginning of the QRS complex (ventricular depolarization).
+
+The normal PR interval measures 0.12-0.20 seconds (120-200 milliseconds). A prolonged or shortened PR interval can indicate certain disease.
+
+When prolonged, a first degree AV block is present. When shortened, Wolff-Parkinson-White syndrome or Lown-Ganong-Levine syndrome should be suspected."
+                />
+            <TextView
+
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#232222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QRS Wave:\n
+                If we move along the graph of the ECG, we see a small dip followed by a large spike and another dip. This series is usually considered together, and it's called the QRS wave. You'll notice that this puts the waves in alphabetical order. The QRS wave is sometimes called the QRS complex, and it represents the depolarization of the ventricles. This quickly leads to the contraction of the ventricles and ejection of blood out of the heart and into the large arteries exiting the heart.
+
+The QRS Wave is the largest spike on the ECG graph and is associated with ventricle contraction
+QRS Wave"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#232222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ST segment:\n
+        ST segment represents the interval between depolarization and repolarization of the ventricles. It can be evaluated by using as baseline reference both the PQ and the TP segments, which are both expression of the diastolic potentials.
+        "/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#232222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QT interval:\n
+       The Q-T interval is the section on the electrocardiogram (ECG) - that represents the time it takes for the electrical system to fire an impulse through the ventricles and then recharge. It is translated to the time it takes for the heart muscle to contract and then recover."/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "318339543406",
+    "project_id": "ecg-monitoring-system1-8df1a",
+    "storage_bucket": "ecg-monitoring-system1-8df1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318339543406:android:9e2bf5b78dfa495114917f",
+        "android_client_info": {
+          "package_name": "com.example.ecg_monitoring_system1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318339543406-u3kccddmnchvojakq6heu855ovkghscd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcYmFTabi67SYFIPSCN9Ka_z5g38e9uPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318339543406-u3kccddmnchvojakq6heu855ovkghscd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

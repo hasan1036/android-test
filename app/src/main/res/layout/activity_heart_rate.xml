@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeartRate">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart Rate,Rythm and Axis"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Rate\n
+The term tachycardia is used to describe a heart rate greater than 100 beats/min. A bradycardia is defined as a rate less than 60 beats/min (or 50 beats/min during sleep).
+
+One large square of recording paper is equivalent to 0.2 seconds; there are five large squares per second and 300 per minute. Thus when the rhythm is regular and the paper speed is running at the standard rate of 25 mm/s, the heart rate can be calculated by counting the number of large squares between two consecutive R waves, and dividing this number into 300. Alternatively, the number of small squares between two consecutive R waves may be divided into 1500." />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rhythm"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To assess the cardiac rhythm accurately, a prolonged recording from one lead is used to provide a rhythm strip. Lead II, which usually gives a good view of the P wave, is most commonly used to record the rhythm strip.
+Normal findings in healthy individuals"
+
+
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiac axis"
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:text="The cardiac axis refers to the mean direction of the wave of ventricular depolarisation in the vertical plane, measured from a zero reference point. The zero reference point looks at the heart from the same viewpoint as lead I. An axis lying above this line is given a negative number, and an axis lying below the line is given a positive number. Theoretically, the cardiac axis may lie anywhere between 180 and −180°. The normal range for the cardiac axis is between −30° and 90°. An axis lying beyond −30° is termed left axis deviation, whereas an axis >90° is termed right axis deviation."
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/cardicxis"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/axiss"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+
+
+
+            <TextView
+android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hexaxial diagram (projection of six leads in vertical plane) showing each lead's view of the heart"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

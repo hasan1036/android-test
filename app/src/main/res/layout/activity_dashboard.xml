@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FFF9F9"
+    tools:context=".Dashboard">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="120dp"
+        android:text="Associate Professor &amp; Chairman"
+        android:textSize="25sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_marginBottom="-50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/sir"/>
+    <LinearLayout
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner">
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_margin="10dp"
+            android:text="Md. Obaidur Rahman"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#0F5212"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_margin="10dp"
+            android:text="Department of Computer Science and Engineering\n
+European University of Bangladesh
+2/4, Gabtoli, Mirpur, Dhaka-1216
+" android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/rounded_rectangle"
+            android:drawableRight="@drawable/arrow_24"
+            android:scaleType="fitXY"
+            android:text="Click Here"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

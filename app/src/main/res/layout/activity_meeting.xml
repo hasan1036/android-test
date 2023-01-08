@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#010C44"
+    android:layout_height="match_parent"
+    tools:context=".Meeting">
+
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <FrameLayout
+            android:id="@+id/local_user"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="#BBB2B2" />
+
+        <FrameLayout
+            android:id="@+id/remote_user"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/local_user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="#BBB2B2" />
+
+
+        <Button
+            android:padding="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/joinButton"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:text="Join"
+            android:background="@drawable/joincll"
+            android:layout_below="@+id/remote_user"
+            android:layout_alignStart="@+id/remote_user"
+            />
+        <Button
+            android:background="@drawable/phone"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/leaveButton"
+            android:textAllCaps="false"
+            android:text="leave"
+            android:textSize="13sp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/remote_user"
+            android:layout_alignEnd="@+id/remote_user"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/remote_user"
+            android:layout_alignStart="@+id/joinButton"
+
+            android:textAlignment="center"
+            android:layout_alignEnd="@+id/remote_user"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="-3dp"
+            android:text="Doctors Meeting or Confernce"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>
